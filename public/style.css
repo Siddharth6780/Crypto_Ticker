@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.buttn{
+    width: 10em;
+    padding: 0%;
+}
+
+.heading{
+    margin-top: 5vw;
+    text-align: center;
+}
+
+.display{
+    text-align: center;
+    font-size: 30px;
+}
+
+.error{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 41, 41);
+}
