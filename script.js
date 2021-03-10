@@ -18,10 +18,6 @@ app.post("/", async (req, res, next) => {
     var api_data=req.body.fiat;
     var request_api = data + second_data;
 
-    //console.log(request_api);
-
-    //console.log(request_api);
-
     if (req.body.crypto == undefined || req.body.fiat == undefined) {
         res.render('list', {
             error_passed: "error",
